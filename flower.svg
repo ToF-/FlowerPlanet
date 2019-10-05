@@ -4,10 +4,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="435.9255" stroke-opacity="1" viewBox="0 0 600 436" font-size="1" width="600.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
   <defs>
   </defs>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="2.0456991375348617" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
-    <path d="M 434.1641,435.9255 l 165.8359,-120.4868 l -63.3437,-194.9518 l -204.9845,-0.0000 l -63.3437,194.9518 Z"/>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(128,0,128)" stroke-width="2.045699137534862" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 536.6563,120.4868 l -204.9845,-0.0000 l -63.3437,194.9518 l 165.8359,120.4868 l 165.8359,-120.4868 Z"/>
   </g>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="2.0456991375348617" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(255,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 172.4694,174.3702 c 0.0000,-3.6635 -2.9699,-6.6334 -6.6334 -6.6334c -3.6635,-0.0000 -6.6334,2.9699 -6.6334 6.6334c -0.0000,3.6635 2.9699,6.6334 6.6334 6.6334c 3.6635,0.0000 6.6334,-2.9699 6.6334 -6.6334Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="2.045699137534862" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 165.8359,174.3702 l 268.3282,87.1851 "/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(255,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 341.9211,120.4868 c 0.0000,-5.6605 -4.5887,-10.2492 -10.2492 -10.2492c -5.6605,-0.0000 -10.2492,4.5887 -10.2492 10.2492c -0.0000,5.6605 4.5887,10.2492 10.2492 10.2492c 5.6605,0.0000 10.2492,-4.5887 10.2492 -10.2492Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(255,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 278.5774,315.4387 c 0.0000,-5.6605 -4.5887,-10.2492 -10.2492 -10.2492c -5.6605,-0.0000 -10.2492,4.5887 -10.2492 10.2492c -0.0000,5.6605 4.5887,10.2492 10.2492 10.2492c 5.6605,0.0000 10.2492,-4.5887 10.2492 -10.2492Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="2.045699137534862" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
     <path d="M 268.3282,315.4387 l 63.3437,-194.9518 l -165.8359,-120.4868 l -165.8359,120.4868 l 63.3437,194.9518 Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(255,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 172.4694,174.3702 c 0.0000,-3.6635 -2.9699,-6.6334 -6.6334 -6.6334c -3.6635,-0.0000 -6.6334,2.9699 -6.6334 6.6334c -0.0000,3.6635 2.9699,6.6334 6.6334 6.6334c 3.6635,0.0000 6.6334,-2.9699 6.6334 -6.6334Z"/>
   </g>
 </svg>
