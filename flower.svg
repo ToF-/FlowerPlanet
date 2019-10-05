@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" height="570.6339" stroke-opacity="1" viewBox="0 0 600 571" font-size="1" width="600.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" height="435.9255" stroke-opacity="1" viewBox="0 0 600 436" font-size="1" width="600.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
   <defs>
   </defs>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="2.3405310367222403" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
-    <path d="M 485.4102,570.6339 l 114.5898,-352.6712 l -300.0000,-217.9628 l -300.0000,217.9628 l 114.5898,352.6712 Z"/>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="2.0456991375348617" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 434.1641,435.9255 l 165.8359,-120.4868 l -63.3437,-194.9518 l -204.9845,-0.0000 l -63.3437,194.9518 Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="2.0456991375348617" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 268.3282,315.4387 l 63.3437,-194.9518 l -165.8359,-120.4868 l -165.8359,120.4868 l 63.3437,194.9518 Z"/>
   </g>
 </svg>
