@@ -1,24 +1,39 @@
-
- {-# LANGUAGE NoMonomorphismRestriction #-}
+{-# LANGUAGE NoMonomorphismRestriction #-}
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE TypeFamilies #-}
 
 import Diagrams.Prelude
 import Diagrams.Backend.SVG.CmdLine
 import Diagrams.TwoD.Vector
+import Data.Colour (withOpacity)
+
+palette = map (blue `withOpacity`) [0.6,0.8,1]
+pentaVertices = trailVertices (pentagon 1)
+middleVectors = zipWith middle pentaVertices (tail pentaVertices ++ [head pentaVertices])
+    where
+    middle p q = (vect p) ^+^ (vect q)
+    vect = r2 . unp2
+    
+flourish :: Diagram B -> V2 Double -> Diagram B -> Diagram B
+flourish pattern v center = center `atop` pattern # rotate r # translate v 
+    where
+    r= signedAngleBetweenDirs (direction v) yDir
+
+flower :: Int -> Diagram B
+flower 2 = foldr (flourish (flower 1 # lcA (palette!!1))) (flower 0 # lcA (palette!!2)) middleVectors
+flower 1 = foldr (flourish (flower 0 # lcA (palette!!0))) (flower 0) [middleVectors!!1,middleVectors!!2]
+flower 0 = flowerArcs 
+
+flowerArcs :: Diagram B
+flowerArcs = atPoints pentaVertices 
+    [(arc (direction (1 *^ e (d@@rad))) (a@@rad)) 
+    | d <- [p,2*p..]]  
+    where
+    a = 3*pi/5
+    p = tau / 5
 
 diagram :: Diagram B
-diagram = pentagon 1 # lc black 
-    `atop`  (penta # rotate ((72+72/2)@@deg) # translate (vs!!0) # lc purple)
-    `atop`  (penta # rotate ((72+72/2)@@deg) # translate (vs!!1) # lc green)
-    `atop`  (penta # rotate ((72+72/2)@@deg) # translate (vs!!2) # lc blue)
-    `atop`  (penta # rotate ((72+72/2)@@deg) # translate (vs!!3) # lc red)
-    `atop`  (penta # rotate ((72+72/2)@@deg) # translate (vs!!4) # lc orange)
-    where
-    penta = pentagon 1 `atop` (atPoints (trailVertices (pentagon 1)) (map (\n -> text (show n) # fontSizeL 0.2) [0..4]))
-    pts = trailVertices (pentagon 1)
-    vs :: [V2 Double]
-    vs = zipWith (\p q -> (r2 (unp2 p)) ^+^ (r2 (unp2 q))) pts (tail pts ++ [head pts])
+diagram = flower 2 # bg black
 
 main = mainWith $ diagram 
 
